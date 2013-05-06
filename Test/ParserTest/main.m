@@ -62,6 +62,8 @@ Links will work too:<br>\n\
 <foo/> standlone elements\n\
 <foo bar=\"x\"> standlone elements with attributes\n\
 ";
+            
+//        NSString *theMarkup = @"Example bad html&string"; // Example of an error producing string
         
         if ([theParser parseString:theMarkup error:&theError] == NO)
             {
